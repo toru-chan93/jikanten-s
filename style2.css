@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+input {
+    display: none;
+}
+
+#nav-open {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 500vw;
+    background:black;
+    opacity: 0;
+    
+}
+
+#nav-img11 {
+    position: absolute;
+    z-index: -102;
+    left: 0vw;
+    top: 62vw;
+    width: 70vw;
+    height: 39.4vw;
+    opacity: 0;
+}
+
+#nav-input1:checked ~ #nav-img11 {
+    z-index: 102;
+    opacity: 1;
+}
+
+.img11 {
+    position: absolute;
+    z-index: 102;
+    left: 0vw;
+    top: 52vw;
+    width: 100vw;
+    opacity: 1;
+}
+
+#nav-input1:checked ~ #nav-open {
+    z-index: 100;
+    opacity: .8;
+}
+
+#nav-close {
+    position: absolute;
+    z-index: 100;
+    left: 24vw;
+    top: 127vw;
+    width: 70vw;
+    height: 39.4vw;
+   
+}
+
+
+
+#nav-opent {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 500vw;
+    background:black;
+    opacity: 0;
+
+}
+
+#nav-img12 {
+    position: absolute;
+    z-index: -102;
+    left: 0vw;
+    top: 102vw;
+    width: 70vw;
+    height: 39.4vw;
+    opacity: 0;
+}
+
+#nav-inputt:checked ~ #nav-img12 {
+    z-index: 102;
+    opacity: 1;
+}
+
+.img12 {
+    position: absolute;
+    z-index: 102;
+    left: 0vw;
+    top: 62vw;
+    width: 100vw;
+    opacity: 1;
+}
+
+#nav-inputt:checked ~ #nav-opent{
+    z-index: 100;
+    opacity: .8;
+}
+
+#nav-closet {
+    position: absolute;
+    z-index: 100;
+    left: 24vw;
+    top: 172vw;
+    width: 70vw;
+    height: 39.4vw;
+    
+}
+
+
+
+#nav-opento {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 500vw;
+    background:black;
+    opacity: 0;
+
+}
+
+#nav-img13 {
+    position: absolute;
+    z-index: -102;
+    left: 0vw;
+    top: 152vw;
+    width: 70vw;
+    height: 39.4vw;
+    opacity: 0;
+}
+
+#nav-inputto:checked ~ #nav-img13 {
+    z-index: 102;
+    opacity: 1;
+}
+
+.img13 {
+    position: absolute;
+    z-index: 102;
+    left: 0vw;
+    top: 52vw;
+    width: 100vw;
+    opacity: 1;
+}
+
+#nav-inputto:checked ~ #nav-opento{
+    z-index: 100;
+    opacity: .8;
+}
+
+#nav-closeto {
+    position: absolute;
+    z-index: 100;
+    left: 24vw;
+    top: 217vw;
+    width: 70vw;
+    height: 39.4vw;
+
+}
+
+
+
+#nav-openo {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 500vw;
+    background:black;
+    opacity: 0;
+
+}
+
+#nav-img14 {
+    position: absolute;
+    z-index: -102;
+    left: 0vw;
+    top: 212vw;
+    width: 70vw;
+    height: 39.4vw;
+    opacity: 0;
+}
+
+#nav-inputo:checked ~ #nav-img14 {
+    z-index: 102;
+    opacity: 1;
+}
+
+.img14 {
+    position: absolute;
+    z-index: 102;
+    left: 0vw;
+    top: 52vw;
+    width: 100vw;
+    opacity: 1;
+}
+
+#nav-inputo:checked ~ #nav-openo{
+    z-index: 100;
+    opacity: .8;
+}
+
+#nav-closeo {
+    position: absolute;
+    z-index: 100;
+    left: 24vw;
+    top: 263vw;
+    width: 70vw;
+    height: 39.4vw;
+
+}
+
+
+
+#nav-openoo {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 500vw;
+    background:black;
+    opacity: 0;
+
+}
+
+#nav-img15 {
+    position: absolute;
+    z-index: -102;
+    left: 0vw;
+    top: 242vw;
+    width: 70vw;
+    height: 39.4vw;
+    opacity: 0;
+}
+
+#nav-inputoo:checked ~ #nav-img15 {
+    z-index: 102;
+    opacity: 1;
+}
+
+.img15 {
+    position: absolute;
+    z-index: 102;
+    left: 0vw;
+    top: 52vw;
+    width: 100vw;
+    opacity: 1;
+}
+
+#nav-inputoo:checked ~ #nav-openoo{
+    z-index: 100;
+    opacity: .8;
+}
+
+#nav-closeoo {
+    position: absolute;
+    z-index: 100;
+    left: 24vw;
+    top: 308vw;
+    width: 70vw;
+    height: 39.4vw;
+
+}
+
+
+
+#nav-openx {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 500vw;
+    background:black;
+    opacity: 0;
+
+}
+
+#nav-img16 {
+    position: absolute;
+    z-index: -102;
+    left: 0vw;
+    top: 292vw;
+    width: 70vw;
+    height: 39.4vw;
+    opacity: 0;
+}
+
+#nav-inputx:checked ~ #nav-img16 {
+    z-index: 102;
+    opacity: 1;
+}
+
+.img16 {
+    position: absolute;
+    z-index: 102;
+    left: 0vw;
+    top: 52vw;
+    width: 100vw;
+    opacity: 1;
+}
+
+#nav-inputx:checked ~ #nav-openx{
+    z-index: 100;
+    opacity: .8;
+}
+
+#nav-closex {
+    position: absolute;
+    z-index: 100;
+    left: 24vw;
+    top: 353vw;
+    width: 70vw;
+    height: 39.4vw;
+
+}
+
+
+
+
+.body {
+    height: 50vw;
+}
+
+.BG {
+    position: fixed;
+    overflow-x: hidden;
+    top:5vw;
+}
+
+.rotate {
+    transform: rotate(odeg);
+    height: 200vw;
+    top: -40vw;
+}
+
+.square1  {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 50vw;
+    left: 20vw;
+    top: -31vw;
+    background: black;
+    animation: s1Move 1800s forwards;
+}
+
+.square4  {
+    position: absolute;
+    z-index: -1;
+    width: 75vw;
+    height: 550vw;
+    left: -60vw;
+    top:-25vw ;
+    background: black;
+
+}
+
+.square3  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 407vw;
+    top: 22vw;
+    left: 20vw;
+    background: black;
+    animation: s3Move 1800s forwards;
+}
+
+.square2 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 500vw;
+    left: -250vw;
+    top:-25vw ;
+    background: black;
+    /animation: s2Move 1800s forwards;
+}
+
+.square6 {
+    position: absolute;
+    z-index: -1;
+    width: 200vw;
+    height: 100vw;
+    left: -250vw;
+    top: 485vw;
+    background: black;
+}
+
+.square5  {
+    position: absolute;
+    z-index: -1;
+    width:100vw;
+    height: 89vw;
+    top: 436vw;
+    left: 20vw;
+    background:black;
+    animation: s3Move 1800s forwards;
+}
+
+.title {
+    z-index: 11;
+    height: 10vw;
+    width: 300vw;
+    top: 50.5vw;
+    left: 32.5vw;
+}
+
+.Title {
+    position: absolute;
+    z-index: 11;
+    color: black;
+    font-size: 9vw;
+    font-weight: 400;
+    left:-9vw;
+    top: 370.5vw;
+    transform: rotate(-90deg);
+}
+
+iframe {
+    position: absolute;
+    z-index: 10;
+    left: 25vw;
+    top: 30.5vw;
+}
+
+.caption {
+    position: absolute;
+    z-index: 11;
+    width: 70vw;
+    height: 70vw;
+    left: 25vw;
+    top: 75.5vw;
+    background: black;
+}
+
+.was {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 30vw;
+    top: 430.5vw;
+    left: 20vw;
+    opacity: 0;
+    background: red;
+}
+
+
+.now {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 14vw;
+    top: 430.5vw;
+    left: 55vw;
+    opacity: 0;
+    background: red;
+}
+
+.will {
+    position: absolute;
+    z-index: 11;
+    height: 5vw;
+    width: 23vw;
+    top: 430.5vw;
+    left: 77vw;
+    opacity: 0;
+    background: red;
+}
+
+.Caption {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.img1 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 52vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 97vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img3 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 142vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img4 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 187vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img5 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 232vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img6 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 277vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.f1 {
+    z-index: -2;
+    position: fixed;
+    height: 100vw;
+    width: 100vw;
+    top: 6.5vw;
+    left: 22vw;
+    background: white;
+}
+
+.name {
+    font-size: 6.5vw;
+}
+
+.f2 {
+    z-index: -2;
+    position: fixed;
+    height: 30vw;
+    width: 80vw;
+    top: 109.5vw;
+    left: 20vw;
+    background: white;
+}
+
+.nav {
+    text-align: center;
+    font-size: 4.3vw;
+}
