@@ -1,0 +1,868 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    z-index: 222;
+    height: 7vw;
+    width: 100vw;
+    
+    
+}
+
+.hehe1 {
+    background: white;
+    position: absolute;
+    height: .5vw;
+    width: 7vw;
+    top: 3vw;
+    left: 46.5vw;;
+} 
+
+.hehe2 {
+    background: white;
+    position: absolute;
+    height: .5vw;
+    width: 7vw;
+    top: 4vw;
+    left: 46.5vw;;
+}
+
+
+.body {
+    height: 50vw;
+}
+
+.BG {
+    position: fixed;
+    overflow-x: hidden;
+    top: -35vw;
+}
+
+.rotate {
+    transform: rotate(-19.55deg);
+    height: 200vw;
+    top: -40vw;
+}
+
+.aaa {
+    z-index: -30;
+    position: absolute;
+    color: white;
+    height: 10vw;
+    width: 54vw;
+    top: 23.5vw;
+    left: 45vw;
+    background:black;
+    cursor: pointer;
+}
+
+.square1  {
+    box-shadow: .3vw .3vw .3vw gray;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 50vw;
+    left: 41vw;
+    top: -31vw;
+    opacity: 0.95;
+    background: black;
+    animation: s1Move 1800s forwards;
+}
+
+.square4  {
+    box-shadow: .3vw .3vw .3vw gray;
+    position: absolute;
+    z-index: -1;
+    width: 66vw;
+    height: 520vw;
+    left: -32vw;
+    top:-25vw ;
+    opacity: 0.95;
+    background: black;
+
+}
+
+.square3  {
+    box-shadow: .3vw .3vw .3vw gray;
+    position: absolute;
+    z-index: -1;
+    width: 90vw;
+    height: 500vw;
+    top: 22vw;
+    left: 41vw;
+    background: black;
+    opacity: 0.95;
+    animation: s3Move 1800s forwards;
+}
+
+.square2 {
+    box-shadow: .3vw 1vw 1vw gray;
+    position: absolute;
+    z-index: -1;
+    width: 214vw;
+    height: 400vw;
+    left: -250vw;
+    top:-25vw ;
+    background: black;
+    /animation: s2Move 1800s forwards;
+}
+
+.square6 {
+    box-shadow: 0vw 1vw .3vw gray;
+    position: absolute;
+    z-index: -1;
+    width: 214vw;
+    height: 200vw;
+    left: -250vw;
+    top: 380vw;
+    background: black;
+}
+
+.title {
+    z-index: -3;
+    height: 10vw;
+    width: 300vw;
+    top: 12.5vw;
+    left: 32.5vw;
+}
+
+.Title {
+    position: absolute;
+    z-index: -3;
+    color: black;
+    font-size: 10vw;
+    font-weight: 400;
+    left: 33vw;
+    top: 12.5vw;
+}
+
+@keyframes s1Move {
+    0%, .05%/*, .18%, .2%*/ { left: 37vw; top: -29.5vw; }
+    .09%/*, .17%, .19%, .21%*/ { left: 41vw; top: -31vw; }
+    .18%, .2%, .77%, .79% {top: -29.5vw;}
+    .17%, .19%, .21%, .76%, .78%, .8% { top: -31vw;}
+}
+
+@keyframes s2Move {
+    0%, .05%/*, .18%, .2%*/ { left: -162.5vw;}
+    .09%, .17%, .19%, .21% { left: -166vw;}
+}
+
+@keyframes s3Move {
+    0%, .05%/*, .18%, .2%*/ { left: 37vw; top: 20vw; }
+    .09%/*, .17%, .19%, .21%*/ { left: 41vw; top: 22vw;}
+    .18%, .2%, .77%, .79% {top: 20vw;}
+    .17%, .19%, .21%, .76%, .78%, .8% { top: 22vw;}
+}
+.menu {
+    z-index: 10;
+    position: absolute;
+    color: white;
+    height: 10vw;
+    width: 14vw;
+    top: 23.5vw;
+    left: 45vw;
+    background:;
+    cursor: pointer;
+}
+
+.menu li {
+    list-style: none;
+    font-size: 4vw;
+}
+
+.menuBtn {
+    z-index: 12;
+    position: absolute;
+    cursor: pointer;
+    height: 5vw;
+    width: 12vw;
+    background: red;
+    opacity: 0;
+    top: 23.5vw;
+    left: 44vw;
+}
+
+.InBtn {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 20vw;
+    background: red;
+    opacity: 0;
+    top: 23.5vw;
+    left: 60vw;
+}
+
+.InBtn1 {
+    z-index: 10;
+    position: absolute;
+    height:7vw;
+    width: 16vw;
+    background: blue;
+    opacity: 0;
+    left: -47.7vw;
+    top: 288vw;
+    transform: rotate(90deg);
+}
+
+.InBtn2 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 25vw;
+    background: blue;
+    opacity: 0;
+    left: -77.7vw;
+    top: 488vw;
+}
+
+.InBtn3 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    background: blue;
+    opacity: 0;
+    left: -36.7vw;
+    top: 232vw;
+    transform: rotate(90deg);
+}
+
+.InBtn4 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 20vw;
+    background: blue;
+    opacity: 0;
+    left: -100.7vw;
+    top: 382vw;
+}
+
+.InBtn6 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 20vw;
+    background: blue;
+    opacity: 0;
+    left: 13.5vw;
+    top: 237vw;
+    transform: rotate(19.55deg);
+}
+
+.InBtn7 {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 20vw;
+    background: blue;
+    opacity: 0;
+    left: -37.7vw;
+    top: 415vw;
+    transform: rotate(90deg);
+}
+
+.In {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    height: 10vw;
+    width: 14vw;
+    top: 23.5vw;
+    left: 60vw;
+    background:;
+    font-size: 4vw;
+    cursor: pointer;
+}
+
+.eyeblow1 {
+    z-index: 11;
+    position: absolute;
+    background: black;
+    opacity: 1;
+    width: 90vw;
+    height: 4vw;
+    top: 23vw;
+    left: 41vw;
+    animation: e1move 1800s forwards;
+}
+
+.eyeblow2 {
+    z-index: 11;
+    position: absolute;
+    background: black;
+    opacity: 1;
+    width: 90vw;
+    height: 4vw;
+    bottom: 169.5vw;
+    left: 41vw;
+    animation: e2move 1800s forwards;
+}
+
+@keyframes e1move {
+    0%, .23%, .25%, .27% { height: 4vw;}
+    .24%, .26%, .28%, 100% { height: 0vw;}
+}
+
+@keyframes e2move {
+    0%, .23%, .25%, .27% { height: 4vw;}
+    .24%, .26%, .28%, 100% { height: 0vw;}
+}
+
+#eyeblow3 {
+    position: absolute;
+    z-index: 3;
+    height: 30vw;
+    width: 59.2vw;
+    top: 32vw;
+    left: 41vw;
+    background: black;
+    transition: .2s ease-in-out;
+}
+#eyeblow4 {
+    position: absolute;
+    z-index: 3;
+    height: 30vw;
+    width: 59.2vw;
+    bottom: 110vw;
+    left: 41vw;
+    background: black;
+    transition: .2s ease-in-out;
+}
+
+#nav-input:checked ~ #eyeblow3 {
+    height: 0vw;
+}
+
+#nav-input:checked ~ #eyeblow4 {
+    height: 0vw;
+}
+
+.goaisatu {
+    position: absolute;
+    height: 5vw;
+    width: 30vw;
+    top: 32vw;
+    left: 41vw;
+    font-size: 3vw;
+    color: white;
+    margin: 2vw;
+    background: black;
+}
+
+.paragraph {
+    z-index: 1;
+    position: absolute;
+    width: 59vw;
+    height: 60vw;
+    top: 38vw;
+    left: 41vw;
+    background: black;
+}
+
+.Gaiyo {
+    list-style: none;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Kanachan {
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Boss {
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Kurio {
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Toruchan {
+    position: absolute;
+    left:30vw;
+    top: 29vw;
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Keto {
+    position: absolute;
+    left:30vw;
+    top: 35vw;
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.Fujikun {
+    position: absolute;
+    left:30vw;
+    top: 41vw;
+    cursor: pointer;
+    margin: 2vw;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.xanachan {
+    position: absolute;
+    z-index: 5;
+    left: -142vw;
+    top: 343vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(0deg);
+}
+
+.eyeblowKa1 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -138.5vw;
+    top: 342.3vw;
+    background: black;
+    transform: rotate(0deg);
+    animation: Ke1move 2.3s infinite;
+}
+
+.eyeblowKa2 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -138.5vw;
+    bottom: -291vw;
+    background: black;
+    transform: rotate(0deg);
+    animation: Ke2move 2.3s infinite;
+}
+
+.xoss {
+    position: absolute;
+    z-index: 5;
+    left: -116vw;
+    top: 450vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(0deg);
+}
+
+.eyeblowBo1 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -112vw;
+    top: 447.3vw;
+    background: black;
+    transform: rotate(0deg);
+    animation: Ke1move 1.3s infinite;
+}
+
+.eyeblowBo2 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -112vw;
+    bottom: -397vw;
+    background: black;
+    transform: rotate(0deg);
+    animation: Ke2move 1.3s infinite;
+}
+
+.xurio {
+    position: absolute;
+    z-index: 5;
+    left: -77vw;
+    top: 378vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(90deg);
+}
+
+.eyeblowKu1 {
+    position: absolute;
+    height: 5.8vw;
+    width: 19vw;
+    z-index: 6;
+    left: -74vw;
+    top: 382.7vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke1move 3s infinite;
+}
+
+.eyeblowKu2 {
+    position: absolute;
+    height: 5.8vw;
+    width: 19vw;
+    z-index: 6;
+    left: -79.09vw;
+    bottom: -327.5vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke2move 3s infinite;
+}
+
+.xoruchan {
+    position: absolute;
+    z-index: 5;
+    left: -89.7vw;
+    top: 250vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(90deg);
+}
+
+.eyeblowTo1 {
+    position: absolute;
+    height: 5vw;
+    width: 17vw;
+    z-index: 6;
+    left: -87.9vw;
+    top: 255.5vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke1move 2s infinite;
+}
+
+.eyeblowTo2 {
+    position: absolute;
+    height: 5vw;
+    width: 17.2vw;
+    z-index: 6;
+    left: -93vw;
+    bottom: -200vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke2move 2s infinite;
+}
+
+.xeto {
+    position: absolute;
+    z-index: 5;
+    left: -77vw;
+    top: 193vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(90deg);
+}
+
+.eyeblowKe1 {
+    position: absolute;
+    height: 5vw;
+    width: 17vw;
+    z-index: 6;
+    left: -79.1vw;
+    top: 190.7vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke1move 2s infinite;
+}
+
+.eyeblowKe2 {
+    position: absolute;
+    height: 5vw;
+    width: 17vw;
+    z-index: 6;
+    left: -74.5vw;
+    bottom: -135vw;
+    background: black;
+    transform: rotate(90deg);
+    animation: Ke2move 2s infinite;
+}
+
+@keyframes Ke2move {
+    0%, 20%, 90%, 100% {height: 5vw;}
+    50% {height: 0vw;}
+
+}
+@keyframes Ke1move {
+    0%, 20%, 90%, 100% {height: 5vw;}
+    50% {height: 0vw;}
+
+}
+
+.xujikun {
+    position: absolute;
+    z-index: 5;
+    left: -28.5vw;
+    top: 200vw;
+    color: white;
+    font-size: 3.5vw;
+    transform: rotate(19.55deg);
+}
+
+.eyeblowFu1 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -29.5vw;
+    top: 197.5vw;
+    background: black;
+    transform: rotate(19.55deg);
+    animation: Ke1move 1.5s infinite;
+}
+
+.eyeblowFu2 {
+    position: absolute;
+    height: 5vw;
+    width: 19vw;
+    z-index: 6;
+    left: -30.5vw;
+    bottom: -147vw;
+    background: black;
+    transform: rotate(19.55deg);
+    animation: Ke2move 1.5s infinite;
+}
+
+@keyframes Ke2move {
+    0%, 20%, 90%, 100% {height: 5vw;}
+    50% {height: 0vw;}
+
+}
+@keyframes Ke1move {
+    0%, 20%, 90%, 100% {height: 5vw;}
+    50% {height: 0vw;}
+
+}
+
+.last {
+    position: absolute;
+    z-index: 2;
+    width: 105vw;
+    height: 50vw;
+    background: black;
+    top: 602vw;
+    left: 6vw;
+    transform: rotate(-19.55deg);
+    border-top: solid;
+    border-top-color: white;
+    
+}
+.ttt {
+    font-size: 3vw;
+    position: absolute;
+    z-index: 2;
+    top: 625vw;
+    left: 18vw;
+    transform: rotate(-19.55deg);
+    color: white;
+}
+
+.nnn {
+    font-size: 2.5vw;
+    position: absolute;
+    z-index: 2;
+    top: 616.3vw;
+    left: 46vw;
+    transform: rotate(-19.55deg);
+    color: white;
+    text-decoration: underline;
+  
+}
+
+.mail {
+    font-size: 2.5vw;
+    position: absolute;
+    z-index: 2;
+    top: 616.3vw;
+    left: 47vw;
+    transform: rotate(-19.55deg);
+    color: white;
+    text-decoration: underline;
+}
+
+.anan {
+    font-size: 2.5vw;
+    position: absolute;
+    z-index: 2;
+    top: 626.3vw;
+    left: 50vw;
+    transform: rotate(-19.55deg);
+    color: white;
+    text-decoration: underline;
+}
+
+.last li {
+    margin: 3vw;
+    text-align: center;
+    list-style: none;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.f1 {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    height: 300vw;
+    width: 200vw
+}
+.boss {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 15vw;
+    left: 60vw;
+    font-size: 4vw;
+}
+
+.kanachan {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 33vw;
+    left: 35vw;
+    font-size: 4vw;
+}
+
+.toruchan {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 90vw;
+    left: 17.5vw;
+    font-size: 4vw;
+}
+
+.kurio {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 80vw;
+    left: 60vw;
+    font-size: 4vw;
+}
+
+.keto {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 124vw;
+    left: 5vw;
+    font-size: 4vw;
+}
+
+.fujikun {
+    list-style: none;
+    position: absolute;
+    color: black;
+    top: 114vw;
+    left: 78vw;
+    font-size: 4vw;
+}
+
+.KuImg {
+    box-shadow: .2vw .2vw .3vw gray;
+    list-style: none;
+    position: absolute;
+    top: 109vw;
+    left: 65vw;
+    width: 40vw;
+    transform: rotate(-19.55deg);
+}
+
+.ToImg {
+    box-shadow: .2vw .4vw .4vw gray;
+    list-style: none;
+    position: absolute;
+    top: 100vw;
+    left: -8.5vw;
+    width: 47vw;
+    transform: rotate(-19.55deg);
+}
+
+.BoImg {
+    box-shadow: .5vw .3vw .4vw gray;
+    list-style: none;
+    position: absolute;
+    top: 22vw;
+    left: 33vw;
+    width: 55vw;
+    transform: rotate(-19.55deg);
+}
+
+.KaImg {
+    box-shadow: .6vw .6vw .3vw gray;
+    list-style: none;
+    position: absolute;
+    top: 50vw;
+    left: -10vw;
+    width: 30vw;
+    transform: rotate(-19.55deg);
+}
+
+.KeImg {
+    box-shadow: .2vw .2vw .4vw gray;
+    list-style: none;
+    position: absolute;
+    top: 59vw;
+    left: 53vw;
+    width: 30vw;
+    transform: rotate(-19.55deg);
+}
+
+.FuImg1 {
+    box-shadow: .1vw .1vw .3vw gray;
+    list-style: none;
+    position: absolute;
+    top: 130vw;
+    left: -8.5vw;
+    width: 57vw;
+    transform: rotate(-19.55deg);
+}
+
+.FuImg2 {
+    box-shadow: .4vw .3vw .4vw  gray;
+    list-style: none;
+    position: absolute;
+    top: 74vw;
+    left: 68vw;
+    width: 30vw;
+    transform: rotate(-19.55deg);
+}
+
+.FuImg3 {
+    box-shadow: .4vw .1vw .6vw  gray;
+    list-style: none;
+    position: absolute;
+    top: 26vw;
+    left: -13.7vw;
+    width: 27vw;
+    transform: rotate(-19.55deg);
+}
+
+.square5 {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 50vw;
+    background: black;
+    top: 632vw;
+}
