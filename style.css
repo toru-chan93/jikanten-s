@@ -70,7 +70,7 @@ header {
     height: 50vw;
     left: 41vw;
     top: -31vw;
-    opacity: 0.95;
+    opacity: 1;
     background: black;
     animation: s1Move 1800s forwards;
 }
@@ -83,7 +83,7 @@ header {
     height: 520vw;
     left: -32vw;
     top:-25vw ;
-    opacity: 0.95;
+    opacity: 1;
     background: black;
 
 }
@@ -97,7 +97,7 @@ header {
     top: 22vw;
     left: 41vw;
     background: black;
-    opacity: 0.95;
+    opacity: 1;
     animation: s3Move 1800s forwards;
 }
 
@@ -200,6 +200,17 @@ header {
     left: 60vw;
 }
 
+.PcBtn {
+    z-index: 10;
+    position: absolute;
+    height: 5vw;
+    width: 20vw;
+    background: red;
+    opacity: 0;
+    top: 23.5vw;
+    left: 85vw;
+}
+
 .InBtn1 {
     z-index: 10;
     position: absolute;
@@ -278,6 +289,19 @@ header {
     width: 14vw;
     top: 23.5vw;
     left: 60vw;
+    background:;
+    font-size: 4vw;
+    cursor: pointer;
+}
+
+.Pc {
+    z-index: 5;
+    position: absolute;
+    color: white;
+    height: 10vw;
+    width: 14vw;
+    top: 23.5vw;
+    left:85vw;
     background:;
     font-size: 4vw;
     cursor: pointer;
