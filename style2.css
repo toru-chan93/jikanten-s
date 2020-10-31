@@ -327,6 +327,59 @@ input {
 
 
 
+#nav-openxx {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 500vw;
+    background:black;
+    opacity: 0;
+
+}
+
+#nav-img17 {
+    position: absolute;
+    z-index: -102;
+    left: 0vw;
+    top: 292vw;
+    width: 70vw;
+    height: 39.4vw;
+    opacity: 0;
+}
+
+#nav-inputxx:checked ~ #nav-img17 {
+    z-index: 102;
+    opacity: 1;
+}
+
+.img17 {
+    position: absolute;
+    z-index: 102;
+    left: 0vw;
+    top:92vw;
+    width: 100vw;
+    opacity: 1;
+}
+
+#nav-inputxx:checked ~ #nav-openxx{
+    z-index: 100;
+    opacity: .8;
+}
+
+#nav-closexx {
+    position: absolute;
+    z-index: 100;
+    left: 24vw;
+    top: 397vw;
+    width: 70vw;
+    height: 39.4vw;
+
+}
+
+
+
 
 .body {
     height: 50vw;
@@ -359,7 +412,7 @@ input {
     position: absolute;
     z-index: -1;
     width: 75vw;
-    height: 550vw;
+    height: 610vw;
     left: -60vw;
     top:-25vw ;
     background: black;
@@ -370,7 +423,7 @@ input {
     position: absolute;
     z-index: -1;
     width:100vw;
-    height: 407vw;
+    height: 467vw;
     top: 22vw;
     left: 20vw;
     background: black;
@@ -403,7 +456,7 @@ input {
     z-index: -1;
     width:100vw;
     height: 89vw;
-    top: 436vw;
+    top: 496vw;
     left: 20vw;
     background:black;
     animation: s3Move 1800s forwards;
@@ -450,7 +503,7 @@ iframe {
     z-index: 11;
     height: 5vw;
     width: 30vw;
-    top: 430.5vw;
+    top: 490.5vw;
     left: 20vw;
     opacity: 0;
     background: red;
@@ -462,7 +515,7 @@ iframe {
     z-index: 11;
     height: 5vw;
     width: 14vw;
-    top: 430.5vw;
+    top: 490.5vw;
     left: 55vw;
     opacity: 0;
     background: red;
@@ -473,7 +526,7 @@ iframe {
     z-index: 11;
     height: 5vw;
     width: 23vw;
-    top: 430.5vw;
+    top: 490.5vw;
     left: 77vw;
     opacity: 0;
     background: red;
@@ -534,6 +587,15 @@ iframe {
     z-index: 12;
     left: 0vw;
     top: 277vw;
+    width: 70vw;
+    height: 39.4vw;
+}
+
+.img7 {
+    position: absolute;
+    z-index: 12;
+    left: 0vw;
+    top: 322vw;
     width: 70vw;
     height: 39.4vw;
 }
