@@ -14,10 +14,10 @@
         <div class="rotate">
             <div class="aaa"></div>
             <div class="square1"></div>
-            <div class="square2"></div>
+            <section class="square2"></section>
             <div class="square3"></div>
-            <div class="square4"></div>
-            <div class="square6"></div>
+            <section class="square4"></section>
+            <section class="square6"></section>
             <div class="square6"></div>
             <div class="eyeblow1"></div>
             <div class="menu">
@@ -25,6 +25,9 @@
             </div>
             <div class="InBtnn">
                 <a href="https://www.instagram.com/mieru_zikan/?hl=ja" class="InBtn"></a>
+            </div>
+            <div class="PcBtnn">
+                <a href="https://toru-chan93.github.io/MIERUJIKAN/" class="PcBtn"></a>
             </div>
             <div class="InBtnn1">
                 <a href="index4.html" class="InBtn1"></a>
@@ -45,6 +48,7 @@
                 <a href="index3.html" class="InBtn7"></a>
             </div>
             <div class="In">instagram</div>
+            <div class="Pc">PCsite</div>
             <div class="eyeblow2"></div>
             <div class="title">
                 <div class="Title">視える時間展</div>
@@ -107,5 +111,22 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        "use strict";
+
+        const section = document.querySelector('section');
+        let currentPos = window.pageYOffset;
+
+        const update = () => {
+            const newPos = window.pageYOffset;
+            const diff = newPos - currentPos;
+            const speed = diff * 0.35;
+            section.style.transform = `skewY(${speed}deg)`;
+            currentPos = newPos;
+            requestAnimationFrame(update);
+        };
+
+        update();
+    </script>
 
 </body>
